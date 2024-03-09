@@ -6,8 +6,8 @@
         "arn:aws:sns:us-east-1:381492215140:billing-alarm"
     ],
     "EvaluationPeriods": 1,
-    "DatapointsToAlarm": 1,
-    "Threshold": 1,
+    "DatapointsToAlarm": 10,
+    "Threshold": 2,
     "ComparisonOperator": "GreaterThanOrEqualToThreshold",
     "TreatMissingData": "breaching",
     "Metrics": [{
